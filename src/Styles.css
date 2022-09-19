@@ -1,0 +1,82 @@
+* {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+    background: url(/src/assets/fondo.svg);
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  .App {
+    text-align: center;
+    padding: 70px;
+  }
+  
+  form {
+    text-align: left;
+    margin: 0 auto;
+    width: 250px;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 7px;
+    font-size: 16px;
+  }
+  
+  .input-container.checkbox label {
+    display: inline-block;
+  }
+  
+  .input-container.checkbox input {
+    width: auto;
+  }
+  
+  button {
+    padding: 10px;
+    background: #e6e0e0;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button.submit {
+    padding: 10px;
+    margin-right: 10px;
+    background: greenyellow;
+  }
+  
+  .users-list {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+  justify-content: center;
+    text-align: justify;
+    align-content: space-around;
+    gap:10px;   
+  }
+  
+  .users-list li b{
+    margin-bottom: 5px;
+ 
+  }
+  .card {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 10px;
+    height: 100%;
+    background:  #349aaa;
+    margin: 10px;
+    width: 30vw;
+ 
+   
+  }
